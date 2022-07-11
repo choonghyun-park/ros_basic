@@ -1,5 +1,6 @@
-# creating node and simple publisher
+# creating node and simple subscriber
 
+## The the build system about catkin_workspace is same with `simple_publisher` tutorial. So skip 1-2
 ## 1. Make workspace and create package
 ```
 mkdir -p ~/simpleros_ws/src
@@ -19,14 +20,14 @@ Please create talker.py in `scripts` directory.
 ```
 cd ~/simpleros_ws/src/beginner_tutorials/scripts
 ```
-The contents of talker.py is [here](https://github.com/choonghyun-park/ros_basic/blob/main/1.%20Simple%20publisher%20and%20subscriber/talker.py)\
+The contents of listener.py is [here](https://github.com/choonghyun-park/ros_basic/blob/main/1.%20Simple%20publisher%20and%20subscriber/talker.py)\
 Give permission
 ```
-chmod +x talker.py
+chmod +x listener.py
 ```
 ## 4. Add the above line to CMakeLists.txt
 ```python
-catkin_install_python(PROGRAMS scripts/talker.py
+catkin_install_python(PROGRAMS scripts/talker.py scripts/listener.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 ```
