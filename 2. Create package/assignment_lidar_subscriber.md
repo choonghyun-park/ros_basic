@@ -17,7 +17,7 @@ rosbag play test1.bag
 
 ### 1.2. lidar ropic
 이제 rosbag에서 lidar topic이 publish 되고있습니다. 토픽의 정보는 아래와 같습니다. 
-* 토픽명 : /velodye_points 
+* 토픽명 : /velodyne_points 
 * 메세지 타입 : sensor_msgs/PointCloud2
 
 ### 1.3. Build catkin package 
