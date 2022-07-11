@@ -20,7 +20,7 @@ Please create talker.py in `scripts` directory.
 ```
 cd ~/simpleros_ws/src/beginner_tutorials/scripts
 ```
-The contents of listener.py is [here](https://github.com/choonghyun-park/ros_basic/blob/main/1.%20Simple%20publisher%20and%20subscriber/talker.py)\
+The contents of listener.py is [here](https://github.com/choonghyun-park/ros_basic/blob/main/1.%20Simple%20publisher%20and%20subscriber/listener.py)\
 Give permission
 ```
 chmod +x listener.py

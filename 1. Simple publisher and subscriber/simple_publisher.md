@@ -14,7 +14,7 @@ Create the scripts directory in beginner_tutorials package
 cd ~/simpleros_ws/src/beginner_tutorials
 mkdir scripts
 ```
-## 3. Create source code of simple subscriber and give permission using chmod
+## 3. Create source code of simple publisher and give permission using chmod
 Please create talker.py in `scripts` directory.
 ```
 cd ~/simpleros_ws/src/beginner_tutorials/scripts
