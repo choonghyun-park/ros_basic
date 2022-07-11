@@ -1,6 +1,6 @@
 # creating node and simple subscriber
 
-## The the build system about catkin_workspace is same with `simple_publisher` tutorial. So skip 1-2
+**Note** : The the build system about catkin_workspace is same with `simple_publisher` tutorial. So skip 1-2
 ## 1. Make workspace and create package
 ```
 mkdir -p ~/simpleros_ws/src
@@ -40,7 +40,7 @@ catkin_make
 
 ## 6. launch
 ```
-rosrun beginner_tutorials talker.py
+rosrun beginner_tutorials listener.py
 ```
 
 
