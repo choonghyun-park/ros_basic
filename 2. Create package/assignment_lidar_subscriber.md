@@ -1,5 +1,6 @@
 # assignment of lidar subscriber
-이전까지 간단한 ros publisher 및 subscriber를 만드는 방법에 대해서 배웠습니다. 지금까지 배운 지식을 활용하여\ 1. lidar 정보가 publish 되고있는 rosbag 파일로부터 python 파일을 실행시켜 lidar 값을 subscribe하고 \
+이전까지 간단한 ros publisher 및 subscriber를 만드는 방법에 대해서 배웠습니다. 지금까지 배운 지식을 활용하여\ 
+1. lidar 정보가 publish 되고있는 rosbag 파일로부터 python 파일을 실행시켜 lidar 값을 subscribe하고 \
 2. 읽어온 값을 terminal에 print 해주시면 됩니다. 
 
 ## 1. Description
