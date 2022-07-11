@@ -31,7 +31,7 @@ rosbag에서 나오는 토픽을 rviz에서 확인할 수 있습니다. fixed_fr
 과제 제출은 slack의 판단팀 채널에 해주시면 됩니다. 제출할 사항은 아래와 같습니다.
 1. 사용한 python 파일
 2. rviz 에서 lidar 값을 visualize하고, 캡쳐하여 제출
-3. lidar data를 terminal 창에 print 한 것을 스크린샷
+3. lidar data를 terminal 창에 print 한 것을 캡쳐하여 제출출
 
 ![Screenshot from 2022-07-12 00-46-29](https://user-images.githubusercontent.com/78340346/178304196-d3b3a762-d1ac-47fb-9afd-eb66702b4f9a.png)
 ![Screenshot from 2022-07-12 00-46-38](https://user-images.githubusercontent.com/78340346/178304213-1c59ccfd-0e76-493c-a1cd-8868ea016246.png)
