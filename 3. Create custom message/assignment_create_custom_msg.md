@@ -26,6 +26,7 @@ whole_time = "02:18:07"
 위와 같은 포멧으로 publish 해주시면 됩니다!
 
 ## Submission
-1. rostopic echo로 custom message를 실시간으로 출력하는 동영상(20초 내)
+1. rostopic echo로 custom message를 실시간으로 출력하는 동영상
 2. 출력에 사용한 python source code (예 : time_publisher.py)
 3. Time.msg
+![Screenshot from 2022-07-21 19-49-40](https://user-images.githubusercontent.com/78340346/180196688-be6584b0-fdf4-41c5-be80-c378db34dbe6.png)
