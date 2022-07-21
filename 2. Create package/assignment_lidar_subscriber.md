@@ -1,5 +1,6 @@
 # assignment of lidar subscriber
-이전까지 간단한 ros publisher 및 subscriber를 만드는 방법에 대해서 배웠습니다. 지금까지 배운 지식을 활용하여\ 1. lidar 정보가 publish 되고있는 rosbag 파일로부터 python 파일을 실행시켜 lidar 값을 subscribe하고 \
+이전까지 간단한 ros publisher 및 subscriber를 만드는 방법에 대해서 배웠습니다. 지금까지 배운 지식을 활용하여
+1. lidar 정보가 publish 되고있는 rosbag 파일로부터 python 파일을 실행시켜 lidar 값을 subscribe하고 
 2. 읽어온 값을 terminal에 print 해주시면 됩니다. 
 
 ## 1. Description
@@ -16,7 +17,7 @@ rosbag play test1.bag
 
 ### 1.2. lidar ropic
 이제 rosbag에서 lidar topic이 publish 되고있습니다. 토픽의 정보는 아래와 같습니다. 
-* 토픽명 : /velodye_points 
+* 토픽명 : /velodyne_points 
 * 메세지 타입 : sensor_msgs/PointCloud2
 
 ### 1.3. Build catkin package 
@@ -30,7 +31,7 @@ rosbag에서 나오는 토픽을 rviz에서 확인할 수 있습니다. fixed_fr
 과제 제출은 slack의 판단팀 채널에 해주시면 됩니다. 제출할 사항은 아래와 같습니다.
 1. 사용한 python 파일
 2. rviz 에서 lidar 값을 visualize하고, 캡쳐하여 제출
-3. lidar data를 terminal 창에 print 한 것을 스크린샷
+3. lidar data를 terminal 창에 print 한 것을 캡쳐하여 제출
 
 ![Screenshot from 2022-07-12 00-46-29](https://user-images.githubusercontent.com/78340346/178304196-d3b3a762-d1ac-47fb-9afd-eb66702b4f9a.png)
 ![Screenshot from 2022-07-12 00-46-38](https://user-images.githubusercontent.com/78340346/178304213-1c59ccfd-0e76-493c-a1cd-8868ea016246.png)
