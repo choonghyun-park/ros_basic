@@ -51,8 +51,19 @@ Add below building dependancies on the package.xml code.
 After add the block of code, the result of package.xml will be like this:
 ![Screenshot from 2022-07-21 18-15-25](https://user-images.githubusercontent.com/78340346/180177698-8707d8ed-7ea2-4ad5-944e-a03a323d9110.png)
 
+### 2.3. catkin_make
+As you revised the `CMakeLists.txt` and `package.xml`, you have to build the catkin_ws again.
+```
+cd ~/simpleros_ws
+catkin_make
+```
 
-
+### 2.4. your source code
+In your source code, you have to add the import statement. For example, adding PointCloud2 message will be like below.
+```python
+from sensor_msgs.msg import PointCloud2 
+```
+This is all you have to do to use the pre-defined message format!
 
 
 
