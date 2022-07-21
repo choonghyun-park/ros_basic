@@ -75,7 +75,7 @@ cd ~/simpleros_ws
 catkin_make
 ```
 
-## 4. your source code
+## 5. your source code
 Now in your source code, you have to add the import statement.\
 In your source code :
 ```python
