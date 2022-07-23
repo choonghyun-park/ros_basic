@@ -86,7 +86,7 @@ Usage :
 from [package_name.msg] import [message_file]
 ```
 ## 6. How to use custom msg in python
-```
+```python
 num_msg = Num()
 Num.first_name = Park
 Num.last_name = Choonghyun
