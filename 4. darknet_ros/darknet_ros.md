@@ -1,5 +1,5 @@
-# yolo
-Yolo simple tutorial
+# darknet_ros tutorial
+darknet_ros simple tutorial
 
 ## darknet_ros
 yolo는 심층신경망을 이용한 객체 탐지 딥러닝 모델입니다. 물체의 정보를 실시간으로 탐지하며, 이를 rostopic 으로 받기 위해서는 `darknet_ros` repository를 사용하여야 합니다.
